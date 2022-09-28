@@ -5,15 +5,18 @@
     <title>Alex Ivan</title>
   </head>
   <body>
-    <img src="https://w0.peakpx.com/wallpaper/420/781/HD-wallpaper-pink-fantasy-fantasy-lake-natrure-landscape.jpg" alt="Espero les guste                                                                                                                ">
-  <h2> JavaScript Arrays </h2>
+    <img src="https://w0.peakpx.com/wallpaper/420/781/HD-wallpaper-pink-fantasy-fantasy-lake-natrure-landscape.jpg" alt=                                                                                                            >
+  <h2>JavaScript Arrays</h2>
+    
     <p id="pusuarios"></p>
     <p id="ppwd"></p>
+    
     <script>
-      const usuarios = {"Daniel", "Diana", "Roberto", "Paola", "Cass"};
-      const pwd = {"D4n13L", "D14Na", "7oB3RT0", "Pa0L4", "C42s"};
-                   document.getElementById("pusuarios").InnerHTML = usuarios;
-                   document.getElementById("ppwd").InnerHTML = pwd;
+      const usuarios = new Array("Daniel", "Diana", "Roberto");
+      const pwd = new Array("D4n13L", "D14Na", "7oB3RT0");
+      document.getElementById("pusuarios").innerHTML = usuarios;
+      document.getElementById("ppwd").innerHTML = pwd;
     </script>
+  
   </body>
 </html>
